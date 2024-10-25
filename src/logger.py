@@ -15,7 +15,8 @@ logging.basicConfig(
     filename=LOG_FILE_PATH, 
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
-
+    # asctime is ascending time, then line number, then name
+    # ie: [ 2024-10-25 18:22:22,969 ] 24 root - INFO - Logging started
 )
 
 # this creates file logs based on the given formats
