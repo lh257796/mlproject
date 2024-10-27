@@ -1,7 +1,8 @@
 import sys
-import logging
+from src.logger import logging
 # sys library: manipulate Python runtime env
 # contains things for exception handling
+
 
 def error_message_detail(error, error_detail:sys):
     # error_detail present in sys
